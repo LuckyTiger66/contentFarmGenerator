@@ -6,8 +6,7 @@ Contentfarm Generator and Text-To-Speech
 ## Live Demo
 https://luckytiger66.github.io/contentFarmGenerator/
 ### YouTube
-[![](http://img.youtube.com/vi/mYnaZyMbi_U/0.jpg)](http://www.youtube.com/watch?v=mYnaZyMbi_U "")
-<a href="http://www.youtube.com/watch?v=mYnaZyMbi_U" target="_blank" title="內容農場產生器">Contentfarm Generator</a>
+[![video](http://img.youtube.com/vi/mYnaZyMbi_U/0.jpg)](http://www.youtube.com/watch?v=mYnaZyMbi_U "")
 
 ## Getting Started
 Clone and open the index.html.
