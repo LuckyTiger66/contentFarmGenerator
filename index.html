@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap v4.4.1 (https://getbootstrap.com/)-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <title>內容農場產生器</title>
+</head>
+
+<body onload="onload()">
+    <h1>內容農場產生器</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-xs-12">
+                <form action="javascript:void(0);" autocomplete="off">
+                    <div class="form-group">
+                        <lable for="subject">話題：</lable>
+                        <input type="text" id="subject" class="form-control" placeholder="動物森友會" required />
+                    </div>
+                    <div class="form-group">
+                        <lable for="event">事件：</lable>
+                        <input type="text" id="event" class="form-control" placeholder="出島拜訪朋友家" required />
+                    </div>
+                    <div class="form-group">
+                        <lable for="event2">換句話說：</lable>
+                        <input type="text" id="event2" class="form-control"
+                            placeholder="使用好友連線功能之前，必須先訂購 Nintendo Switch Online 會員" required />
+                    </div>
+                    <input type="submit" value="生成農場文" class="btn btn-outline-primary" onclick="generate()" />
+                    <input type="button" value="文字轉語音" class="btn btn-outline-info" onclick="audios()" />
+                </form>
+            </div>
+            <div class="col-sm-7 col-xs-12">
+                <textarea id="result" onchange="auto_grow(this)" oninput="auto_grow(this)"
+                    placeholder="　　範例: 動物森友會如何出島拜訪朋友家呢？動物森友會相信大家都很熟悉，但是動物森友會出島拜訪朋友家到底是怎麼回事呢，下面就讓小编帶大家一起了解吧。&#013;&#010;　　動物森友會出島拜訪朋友家，其實就是使用好友連線功能之前，必須先訂購Nintendo Switch Online 會員，大家可能會驚訝動物森友會怎麼使用好友連線功能之前，必須先訂購 Nintendo Switch Online 會員呢？但事實就是如此，小编也感到非常訝異。&#013;&#010; 　　這就是關於動物森友會出島拜訪朋友家的內容了，大家有什麼想法呢，歡迎在留言區跟小编一起討論哦！"></textarea>
+                    <!--
+                        HTML character codes
+                        &#13;carriage return / enter
+                        &#10; line feed
+                        https://www.rapidtables.com/web/html/html-codes.html
+                    -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
