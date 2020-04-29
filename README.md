@@ -5,7 +5,7 @@ Contentfarm Generator and Text-To-Speech
 
 ## Live Demo
 https://luckytiger66.github.io/contentFarmGenerator/
-### YouTube
+### YouTube Demo
 https://youtu.be/mYnaZyMbi_U?t=7
 
 ## Getting Started
