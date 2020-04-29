@@ -3,6 +3,9 @@ Contentfarm Generator and Text-To-Speech
 內容農場產生器 + 文字轉語音
 ![image](https://i.imgur.com/pI6HIYC.png)
 
+## Live Demo
+https://luckytiger66.github.io/contentFarmGenerator/
+
 ## Getting Started
 Clone and open the index.html.
 下載並開啟index.html
