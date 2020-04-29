@@ -7,7 +7,7 @@ Contentfarm Generator and Text-To-Speech
 https://luckytiger66.github.io/contentFarmGenerator/
 ### YouTube
 [![video](http://img.youtube.com/vi/mYnaZyMbi_U/0.jpg)](http://www.youtube.com/watch?v=mYnaZyMbi_U "")
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mYnaZyMbi_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/mYnaZyMbi_U
 
 ## Getting Started
 Clone and open the index.html.
